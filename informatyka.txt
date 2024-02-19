@@ -1,0 +1,604 @@
+temat: bądz uczciwy, czyli przestrzeganie prawa w świecie informatyki
+
+KRADZIEŻ
+- pobieranie programów z pirackich serwisów
+- publikowanie cudzych zdjęć bez zgody właściciela
+- kopiowanie cudzych dokumentów i podpisywanie się swoim nazwiskiem pod nimi
+- używanie gier pobranych bez zapłaty
+- używanie komercyjnych programów bez licencji
+
+przykłady kradzieży za pomocą internetu
+
+prawo autorskie to zespół uprawnień, które przysługują twórcy utworu. należą do nich m.in. prawo do uznania autorstwa utworu, decydowaniu o pierwszym
+udostępnieniu utworu, a także prawo do korzystania z utworu i czerpania korzyści majątkowych
+
+plagiat - kopiowanie cudzych prac i podpisywanie się nazwiskiem pod nimi
+rzędy:
+by
+by-sa
+by-nc
+by-nd
+by-nc-sa
+by-nc-nd
+
+kol
+kopiowanie
+zmienianie/remiksowanie
+rozpowszechnianioe
+przedstawienie/wykonywanie
+oznaczenie oryginalnego autora
+udostępnianie na tej samej licencji
+nie można zarabiać
+postać oryginalna dzieła
+
+https://labib.pl/files/advice/2014/11/04/CC_plakat_licencje.png
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+temat: 8, 16, 32, 64, czyli jak rozwój technologii wpływa na rozwój społeczeństw.
+
+2^7 + 2^6 + 2^5 + 2^4 + 2^3 + 2^2 + 2^1 = 2^8 - 1
+
+Lmax = 2^n+1 - 1
+L(64) = 18446744073709551615
+L(8) = 256
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+CECHY POSTEPU TECHNOLOGICZNEGO W DZIEDZINIE INFORMATYKI
+Zastosowania IT mające wpływ na zmiany cywilizacyjne
+1. telefon - dawniej stacjonarny, a dziś mobilny globalnie
+2. wymiana dokumentów natychmiastowa bez względu na miejsce nadania i odbioru
+3. bankowość i płatność online, w tym także za pomocą telefonu
+4. komunikatory wykorzystujące transmisje strumieniowe dźwięku i obrazu
+5. e-urzędy - kontaktowanie się, składanie i otrzymywanie dokumentów urzędowych przy pomocy internetu
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+temat: Chrońmy informacje, czyli techniki uwierzytelniania, kryptografia i podpis elektroniczny.
+uwierzytelnianie - jest to stwierdzenie autentyczności dokumentu lub podpisu.
+
+PROCES UWIERZYTELNIANIA
+1. identyfikacja
+	podczas identyfikacji jest sprawdzana nasza tożsamość. przykłady: aby zalogować się na pocztę elektroniczną, czy do konta w mediach społecznościowych, podajemy login,
+	który następnie jest weryfikowany w bazie danych; jeżeli chcemy uzyskać informacje dotyczące naszego konta na infolinii banku, zostaniemy poproszeni o podanie
+	naszego imienia i nazwiska
+2. uwierzytelnienie
+	jest to moment, kiedy strona ufająca za pomocą dostępnych sobie narzędzi i metod weryfikuje, czy dany użytkownik jest tym, za kogo się podaje.
+	- serwer, na którym mamy swoją skrzynkę pocztową prosi nas o wpisanie hasła
+	- obsługa banku zadaje kolejne pytania, które pomogą w weryfikacji naszej tożsamości, np. data urodzenia, PESEL, nazwisko panieńskie matki
+3. autoryzacja
+	w tym kroku otrzymamy prawo lub odmowę dostępu do danych
+
+TECHNIKI UWIERZYTELNIANIA
+- w przypadku dokumentów pisanych, np. pieczęć instytucji, podpis osoby uprawnionej, znak wodny
+- w przypadku osób lub istot żywych techniką uwierzytelniania jest zabezpieczenie biometryczne (rozpoznanie tęczówki oka, linie papilarne, geometria dłoni),
+karta elektroniczna, bioczip, token
+- w przypadku dokumentów i wiadomości elektronicznych technikami uwierzytelniania są podpis cyfrowy, kod uwierzytelnienia wiadomości
+- w przypadku komunikacji elektronicznej stosuje się techniki oparte na kryptografii symetrycznej lub niesymetrycznej lub haśle jednorazowym
+
+kodowanie - to ustalone słowa, wyrażenia lub symbole stosowane raz w ogólnodostępnym przekazie
+np. "Agata zaczęła rodzić" może informować o podłożonym ładunku wybuchowym
+
+szyfrowanie - odbywa się na poziomie pojedynczych znaków np. szyfrowanie Cezara
+
+podpis elektroniczny - jest operacją podpisywania konkretnych danych przez osobę fizyczną
+podpis cyfrowy - jest to zbiór danych dołączonych do innych danych, które pozwala odbiorcy danych udowodnić pochodzenie danych i zabezpieczyć je przed fałszerstwem
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+github.com/mwachzst/instrukcje
+E-usługi
+1. e-mail
+2. e-rozmowy
+3. e-nauka
+4. e-booki
+5. e-handel
+6. e-administracja
+7. e-bankowość
+8. e-ubezpieczenia
+9. e-kultura
+10. e-turystyka
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+cechy algorytmu
+- precyzyjne zdefiniowanie (poprawność - algorytm powinien zwracać poprawne wyniki)
+- wykonywalność (jednoznaczność - algorytm powinien przy takim samym zbiorze danych wejściowych zwracać takie same wyniki)
+- skończoność (dla każdego zbioru poprawnych danych wejściowych algorytm powinien zwracać wyniki w skończonej liczbie kroków)
+- efektywność (algorytm powininien prowadzić do rozwiązania problemu w jak najmniejszej liczbie kroków)
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+temat: Narzędzia, czyli jak dobrać i skonfigurować środowisko programistyczne.
+
+IDE (Integral Development Environment) - jest to zespół programów służących do tworzenia, testowania, modyfikowania i konserwacji programów komputerowych w danym języku (Zintegrowane Środowisko Deweloperskie)
+
+MinGW (Minimalistic GNU for Windows) - są to narzędzia pozwalające na kompilację programów przeznaczonych dla systemu Windows (jest to kompilator)
+
+kompilacja -  jest to zamiana kodu źródłowego (pisanego) na język wynikowy (maszynowy)
+
+~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: C z +, czyli podstawy programowania
+
+etapy tworzenia programu komputerowego:
+1. projektant oprogramowania
+	- projektowanie sposobu rozwiązania problemu
+	- tworzenie algorytmów
+2. praca programisty w środowisku programistycznym
+	- edycja kodu źródłowego
+	- debuggowanie - sprawdzenie poprawności kodu źródłowego
+	- kompilacja
+3. programista we współpracy z projektantem
+	- testowanie
+	- optymalizacja
+	- ponowne testowanie
+
+znak # oznacza dyrektywę preprocesora - wykonywanie operacji przed kompilacją kodu źródłowego
+<iostream> jest to biblioteka zawierająca funkcje danych wejściowych (input) oraz danych wyjściowych (output)
+using namespace std; - zastosowanie standardowych przestrzeni nazw, dzięki czemu kod programu ze sobą nie koliduje
+int main() {} - jest to główna funkcja programu
+return 0; - informuje o poprawnym zakończeniu programu
+wszystkie komendy muszą być, inaczej program nie bedzie dzialal
+
+cout << "TEKST"; - wyświetlanie danych
+cin >> zmienna; - wczytywanie danych
+\n, endl - rozpoczęcie nowej linii (enter)
+~~~~~~~~~~~~~~~~~~~~~~
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!";
+  return 0;
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: C z +, czyli podstawy programowania, c.d.
+
+operatory arytmetyczne C++
+
+dodawanie                    +            y = x + 1
+odejmowanie                  -            y = x - 4
+mnożenie                     *            y = x * z
+dzielenie                    /            y = ( x+25 ) / z
+reszta z dzielenia (modulo)  %            y = z % 2
+
+operatory relacyjne C++
+
+mniejszy               <
+większy                >
+równy                  ==
+różny                  !=
+mniejszy lub równy     <=
+większy lub równy      >=
+
+// komentarz jednoliniowy
+
+/*
+komentarz wieloliniowy
+*/
+
+stałoprzecinkowe - całkowite
+typy danych stałoprzecinkowych
+nazwa             liczba bajtów     zakres wartości
+bool              1                 true albo false
+char              1                 od -128 do 127
+unsigned char     1                 od 0 do 255
+short             2                 od -32 768 do 32 767
+unsigned short    2                 od 0 do 65 535
+int               4                 od -2 147 483 648 do 2 147 483 647
+unsigned int      4                 od 0 do 4 294 967 295
+long              4                 od -2 147 483 648 do 2 147 483 647
+
+zmienne typu rzeczywistego
+float             4                 3.4E +/- 38 (7 cyfr)
+double            8                 1.7E +/- 308 (15 cyfr)
+
+~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: instrukcje warunkowe w C++
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: pętle w programowaniu
+
+for (int i=1; i<=10; i++)
+{
+cout << i << endl;
+}
+
+sleep(5000); - uśpij program na 5s, musi być #include <windows.h>
+system("cls") - czyszczenie ekranu, #include <cstdlib>
+zmienna*=2 - pomnożenie zmiennej przez 2
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: tablice w programowaniu
+
+tablica - zewspół zmiennych tego samego typu
+int tablica[ilosc elementów]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: funkcje
+
+najlepiej układac miedzy using namespace a main
+
+float metry;
+
+float ile_cali(float m)
+{
+return m*39.37;
+}
+
+float ile_jardow(float x);
+
+void ile_mil(float m)
+{
+cout << "na mile: " << m*ilestam << endl;
+}
+
+int main()
+{
+cout << "Podaj ile metrów";
+cin >> metry;
+cout << "na cale: " >> ile_cali(metry) >> endl;
+cout << "na jardy: " >> ile_jardow(metry) >> endl;
+
+return 0;
+}
+
+float ile_jardow(float x)
+{
+return x*1.0936
+}
+
+variable scope - zakres widoczności zmiennej
+parametr - w definiowaniu funkcji
+argument - w wywoływaniu funkcji
+open() - otwarcie pliku
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: pętle, instsrukcje warunkowe, tablice, funkcje - utrwalanie wiadomości
+
+Pierwsza postać instrukcji warunkowej
+
+if (warunek)
+{
+	instrukcja 1; // jeżeli warunek będzie spełniony,
+	instrukcja 2; // zostaną wykonane instrukcje w { }, a jeśli nie zostaną one pominięte
+}
+
+Druga postać instrukcji warunkowej
+
+if (warunek)
+{
+	instrukcja 1;
+	instrukcja 2;
+}
+else
+{
+	instrukcja 3;
+	instrukcja 4; // wykonają się, gdy warunek nie zostanie spełniony
+}
+
+Trzecia postać instrukcji warunkowej
+
+if (warunek1)
+{
+	instrukcja 1;
+	instrukcja 2;
+}
+else if (warunek2)
+{
+	instrukcja 3;
+	instrukcja 4;
+}
+else
+{
+	instrukcja 5;
+	instrukcja 6;
+}
+
+
+Operatory relacyjne w C++
+
+==   równy
+!=   różny
+>    większy
+<    mniejszy
+>=   większy lub równy
+<=   mniejszy lub równy
+
+Operatory logiczne stosowane w C++
+
+&&   koniunkcja / oraz (i)
+||   alternatywa (lub)
+!    negacja (nie)
+
+Rodzaje pętli w C++
+
+1. pętla for
+for(1; 2; 4)
+{
+	3;
+}
+
+1 - wartość początkowa zmiennej pomocniczej (iterator)
+2 - warunek powtórzenia pętli
+3 - instrukcje do wykonania przy spełnionym warunku z punktu 2
+4 - zmiana zmiennej pomocniczej
+
+for(int i = 2; i <= 20, i=i+3)
+{
+	cout << i << endl;
+}
+
+program wypisze liczby 2, 5, 8, 11, 14, 17, 20
+
+2. pętla while
+
+while(warunek)
+{
+	instrukcja1;
+	instrukcja2;
+}
+
+a = 1
+while(a <= 10)
+{
+	cout << a << endl;
+}
+
+program wypisze 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1...
+
+aby program wyświetlił liczby od 1 do 10, należy wstawić instrukcję "a++;"
+
+a = 1
+while(a <= 10)
+{
+	cout << a << endl;
+	a++
+}
+
+3. pętla do...while
+do
+{
+	instrukcja1;
+	instrukcja2l
+}
+while(warunek);
+
+w przypadku pętli do...while warunek jest sprawdzany na końcu, po wykonaniu instrukcji. Pętla ta zawsze będzie wykonywana przynajmniej raz.
+
+b = 5;
+zlicz = 0;
+do
+{
+	b+=5;
+	zlicz++;
+}
+while(b <= 50);
+
+cout << zlicz;
+
+1. b=5; zlicz=1
+2. b=10; zlicz=2
+3. b=15; zlicz=3
+...
+10. b=50; zlicz=10
+
+program wyświetli na ekranie zmienną zlicz, która wynosi 10.
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: pętle, instrukcje warunkowe, tablice, funkcje - utrwalanie wiadomości, c. d.
+
+Tablica w programowaniu jest to zmienna, ktora posiada wiele innych zmiennych tego samego typu
+
+int tablica[7] - tworzy tablicę 7 komórek, w których znajdują się liczby całkowite. Odnoszenie się do poszczególnych komórek w tablicy (indeksowanie) rozpoczyna się od 0 i kończy na n-1
+
+int pomiar[7][24] - tablica dwuwymiarowa
+
+~~ FUNKCJE ~~
+
+funkcja - jest to podprogram, który można wywołać w dowolnej części programu głównego
+cechy funkcji:
+ - ma nazwę, przez którą jest wywoływana
+ - może przetwarzać argumenty wejściowe, jeśli tak przewidziano w programie
+ - może zwracać przetworzone dane (wyniki działania funkcji)
+
+
+int a, b, c;
+
+int iloczyn(int d, int e, int f)
+{
+	return (d*e*f);
+}
+
+int main()
+{
+	cout << "wprowadz liczbe a: " << endl;
+	cin >> a;
+	cout << "wprowadz liczbe b: " << endl;
+	cin >> b;
+	cout << "wprowadz liczbe c: " << endl;
+	cin >> c;
+	
+	cout << endl << a << a << "*" << b << "*" << c << "=" << iloczyn(a, b, c) << endl;
+	return 0;
+}
+
+sprawdzian
+co to jest kompilacja
+dyrektywa preprocesora - zaczyna się na #, np #include (wykonanie czegoś przed kompilacją kodu)
+biblioteki kończące się na .h są dla C, a bez dla C++
+np. <time.h> i <ctime>
+przestrzenie nazw - using namespace
+komentarze //jedloninowy /* wieloliniowy */
+debugger - program wykrywający nieprawidłowości w kodzie
+
+3 najwazniejsze
+#include <iostream>
+using namespace std;
+int main()
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+na sprawdzian:
+ - definicja algorytmu (w podręczniku) zbiór instrukcji przetwarzające dane wejściowe na wyjściowe
+ - sposoby reprezentacji algorytmu (np. pseudokod - zapis instrukcji najbardziej zblizony do jakiegos jezyka programowania)
+ - cechy dobrego algorytmu (są 4, gdzieś wyżej w pliku)
+ - co to jest IDE (integral development environment, wystarczy rozwinięcie skrótu)
+ - definicja MinGW (minimalistic gnu for windows - kompilator)
+ - definicja kompilacji (zamiana języka źródłowego na wynikowy / maszynowy)
+ - # - dyrektywa preprocesora (wykonanie kodu przed jego interpretacją)
+ - co to <iostream> (biblioteka wejścia / wyjścia)
+ - using namespace std; - stosowanie standardowych przestrzeni nazw
+ - int main() - funkcja główna w programie
+ - return 0 - zwraca informację o poprawnym zakończeniu programu
+ - definicja debuggera (program wykrywający nieprawidłowości w kodzie)
+ - [cout <<], [cin >>] i [<< endl;]
+ - operatory arytmetyczne stosowane w C++ (+, -, *, -, %)
+ - operatory relacyjne
+ - definicja zmiennej w programowaniu (element w pamięci RAM, który może przechowywac jakieś dane)
+ - deklarowanie zmiennej
+ - co musi posiadać zmienna (typ, nazwa, = (przypisanie wartości), wartość - dwa ostatnie nie są wymagane)
+ - komentarze //jednoliniowe i /*wieloliniowe*/
+ - typy danych liczb całkowitych (char, bool, int, short int, long)
+ - typy danych liczb rzeczywistych (float, double)
+ - operatory logiczne stosowane w C++ (|| - lub / alternatywa, && - oraz / i / koniunkcja, ! - nie / negacja)
+ - postacie instruckji warunkowej (są 3 - if, if else, if else if else)
+ - 3 sposoby zapisu pętli (for, while, do while - opis ogólny)
+ - tablice w programowaniu (definicja (rodzaj zmiennej, do której możemy przypisać inne zmienne tego samego typu) + deklaracja tablicy + dwuwymiarowa)
+ - definicja funkcji (podprogram, który można wywołać w dowolnej części programu)
+ - cechy funkcji (nazwa, przetwarzanie argumentów wejściowe, zwrot wyniku) pod. s88
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<<, >> - znak skierowania strumienia
+
+cout << "imie nazwisko" << endl << "klasa";
+% - reszta z dzielenia
+11%3=2
+3*3=9
+11-9=2
+
+5%10=5
+10*0
+5-0=5
+
+12%4=0
+
+18%19=18
+
+jezeli liczba po lewej jest mniejsza od prawej, wynikiem jest mniejsza
+
+10%1=0
+
+5%4=1
+
+21%6=3
+
+zdefiniowanie zmiennej - rezerwowanie pamięci RAM
+
+wartości zmiennoprzecinkowe (rzeczywiste):
+ - float
+ - double
+
+while(warunek)
+{
+	instrukcja1;
+	instrukcja2;
+}
+
+do
+{
+	instrukcja1;
+	instrukcja2;
+}
+while(warunek);
+
+for(int i=0; i > 10; i++)
+{
+	instrukcja; //wykona się 10x
+}
+
+(a=0; a<=10; a++) //wykona się 11x
+
+int arr[7][24] //arr - array; stworzy tablicę dwuwymiarową, kolumn 7 wierszy 24; liczy się od 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: Wspólna miara, czyli podstawy złożoności obliczeniowej
+
+Na złożoność obliczeniową algorytmu składa się złożoność czasowa i złożoność pamięciowa
+Złożoność czasowa - jest to ilość czasu potrzebnego do rozwiązania problemu (algorytmu) w zależności od tego, ile mamy danych wejściowych
+Złożoność pamięciowa - określa liczbę komórek w pamięci, która będzie zajęta przez dane i wyniki pośrednio tworzone w trakcie pracy algorytmu
+Złożoność obliczerniiwa występuje w 3 odmianach:
+ - złożoność optymistyczna    [ To(n) ]
+ - złożoność średnia          [ Ta(n) ]
+ - złożoność pesymistyczna    [ Tw(n) ]
+przykład:
+Dopóki w koszyku są śliwki, wyjmij jedną, obejrzyj ją. Jeśli jest robaczywa, zakończ czynności. W przeciwnym razie odłóż śliwkę do drugiego koszyka i wróć do początku.
+Przypadek optymistyczny - wyciągnięcie robaczywej śliwki za pierwszym razem                                              [ To(n) = 1 ]
+Przypadek średni - śliwka robaczywa znajduje się mniej więcej w połowie zbioru                                           [ Ta(n) = n/2 ]
+Przypadek pesymistyczny - w koszyku nie ma robaczywych śliwek lub śliwka robaczywa zostanie wyciągnięta jako ostatnia    [ Tw(n) = n ]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: Przez 1 i siebie, czyli jak zbadać, czy dana liczba jest liczbą pierwszą.
+
+ALGORYTM SITA ERATOSTENESA
+1. Określ liczbę narutalną n z przedziału od 2 do n, czyli zakres badanych liczb
+2. Usuń ze zbioru liczby większe od 2 i podzielne przez 2
+3. Wybierz najmniejszą z niewykreślonych liczb i usuń ze zbioru wszystkie liczby przez nią podzielne, oprócz niej samej
+4. Wykonuj punkt 3. do wyczerpania zasobu liczb z założonego przedziału od 2 do n
+
+diagram str. 100
+
+n=20
+2, 3, 5, 7, 11, 13, 17, 19
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: Która pierwsza, czyli jak program bada liczby.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n, p;
+	cout << "Podaj liczbe naturalna: ";
+	cin >> n;
+	for(p=2; p<n; p++)
+    if(n % p == 0)
+    {
+        cout << n << " jest liczba zlozona.";
+        exit(0);
+    }
+    cout << n << " jest liczba pierwsza.";
+    exit(0);
+
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: więcej pierwszych, czyli generujemy liczby.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: Największy i najmniejszy, czyli jak znaleźć NWD i NWW.
+
+NWD - Najwiekszy wspólny dzielnik
+NWW - Najmniejsza wspólna wielokrotność
+
+NWD - jest to największa liczba naturalna, która dzieli obie te liczby bez reszty
+Najwięszym wspólnym dzielnikiem liczb 10 i 6 jest liczba 2.
+
+NWW - jest to najmniejsza liczba naturalna, która dzieli się bez reszty przez a i b, np. NWW(2, 3) = 6
