@@ -602,3 +602,11 @@ NWD - jest to największa liczba naturalna, która dzieli obie te liczby bez res
 Najwięszym wspólnym dzielnikiem liczb 10 i 6 jest liczba 2.
 
 NWW - jest to najmniejsza liczba naturalna, która dzieli się bez reszty przez a i b, np. NWW(2, 3) = 6
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+temat: Rekurencja
+
+Rekurencja - oznacza w programowaniu sytuację, kiedy funkcja, w celu zwrócenia prawidłowego wyniku wywołuje samą siebie (a dokładniej mówiąc: tworzy swoje kopie aż do napotkania tzw. przypadku podstawowego, dla którego funckja może wyznaczyć wynik)
+
+!REKURENCJA - WYWOŁANIE FUNKCJI LUB DEFINICJI FUNKCJI PRZEZ SAMĄ SIEBIE!
