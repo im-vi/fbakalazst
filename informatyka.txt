@@ -610,3 +610,7 @@ temat: Rekurencja
 Rekurencja - oznacza w programowaniu sytuację, kiedy funkcja, w celu zwrócenia prawidłowego wyniku wywołuje samą siebie (a dokładniej mówiąc: tworzy swoje kopie aż do napotkania tzw. przypadku podstawowego, dla którego funckja może wyznaczyć wynik)
 
 !REKURENCJA - WYWOŁANIE FUNKCJI LUB DEFINICJI FUNKCJI PRZEZ SAMĄ SIEBIE!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+NWW(a, b) = (a * b) div NWD(a, b)
