@@ -614,3 +614,25 @@ Rekurencja - oznacza w programowaniu sytuację, kiedy funkcja, w celu zwrócenia
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 NWW(a, b) = (a * b) div NWD(a, b)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ZAGADNIENIA NA SPRAWDZIAN:
+co to jest złożoność obliczeniowa (opisac złożoność czasową/pamięciową) czasowa szacuje długość wykonywania algorytmu || pamięciowa określa ile pamięci będzie używane do wykonania algorytmu
+3 odmiany złożoności obiczeniowej (przykład ze śliwkami) (optymistyczny, pesymistyczny, średni)
+sito Eratostenesa - opisać w postaci listy kroków, wymienić kroki
+schematy blokowe
+kody będzie trzeba uzupełnić (bez rys. 15.5)
+"Kod generatora - podejście 1"
+wiedzieć co to NWD i NWW, umieć wyznaczyć
+algorytm nieoptymalny metody Euklidesa (schemat + kod)
+algorytm optymalny metody Euklidesa (schemat + kod)
+czym różni się metoda nieoptymalna i optymalna (optymalna ma 1 warunek a nieoptymalna 2, przez co działa szybciej)
+wzór na NWW (na schemacie jest) NWW = a*b/NWD(a, b)
+DEFINICJA REKURENCJI - WYWOŁANIE FUNKCJI LUB DEFINICJI FUNKCJI PRZEZ SAMĄ SIEBIE
+przykład do rozwiązania z rekurencji (podobny jak na filmie pasja informatyki)
+algorytm Euklidesa w wersji rekurencyjnej (całe 2 linie kodu)
+bez tematu 19
+dodawanie ułamków - schemat blokowy, kod
+skracanie ułamkow
+wyłączenie liczby całkowitej i reszty z ułamka
