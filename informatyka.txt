@@ -636,3 +636,10 @@ bez tematu 19
 dodawanie ułamków - schemat blokowy, kod
 skracanie ułamkow
 wyłączenie liczby całkowitej i reszty z ułamka
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Utworzyć dom w programie SketchUp (https://app.sketchup.com/app)
+- ma okna i drzwi
+- schody (musi byc do gory podniesione)
+- trawnik
+- basen, grill, płot, ludzie
