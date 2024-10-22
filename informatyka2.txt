@@ -1,1 +1,21 @@
+Temat: Co z tym groszem, czyli błąd zaokrąglenia i błąd przybliżenia.
 
+1. Błąd bezwzględny - jest to różnica wymiaru rzeczywistego (dokładnego) i wartości zmierzonej.
+Δx = |x - x0|
+Błąd bezwzględny podaje się bez jednostek.
+
+Błąd względny - jest to stosunek błędu bezwzględnego do wymiaru rzeczywistego i wyrażone w procentach.
+δ = Δx/x * 100% = |x - x0|/x * 100%
+
+~~~~~~~~~~~~~~~~~~
+SPRAWDZIAN
+Szyfr Cezara stałoprzestawieniowy i zmiennoprzestawieniowy
+kodowanie ASCII (reprezentacja poszczególnych znakow w komputerze w postaci 7-bitowej)
+schemat blokowy szyfrowania cezara
+co to jest kryptografia (dziedzina nauki zajmująca się szyfrowaniem)
+kryptografia symetryczna (jeden klucz znany nadawcy i odbiorcy) i asymetryczna (ma 2 klucze, szyfrowana publicznym, odszyfrowywana prywatnym albo na odwrót) schemat, opis, wyjasnic roznice
+funkcja szyfrująca i deszyfrująca dla szyfrowania cezara
+zapis funkcji rand() w C++ // 41-56 // rand()%16 + 42
+kodowanie Huffmana, rysowanie drzewa binarnego // jak konstruuje sie drzewo binarne
+szyk przestawieniowy
+szyk przestawieniowy z tablica
