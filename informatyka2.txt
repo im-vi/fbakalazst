@@ -17,5 +17,35 @@ kryptografia symetryczna (jeden klucz znany nadawcy i odbiorcy) i asymetryczna (
 funkcja szyfrująca i deszyfrująca dla szyfrowania cezara
 zapis funkcji rand() w C++ // 41-56 // rand()%16 + 42
 kodowanie Huffmana, rysowanie drzewa binarnego // jak konstruuje sie drzewo binarne
-szyk przestawieniowy
-szyk przestawieniowy z tablica
+metoda zachłanna
+schemat blokowy i kod algorytmu wydawania reszty (wszystkich wersji)
+kod programu wydawania reszty metoda zachlanna
+ceil, floor, round
+kod programu zaokrąglający liczbę do rzędu 1000, 100 i 10
+błąd względny i bezwzględny (opis, różnica, przykład wyliczyć)
+szyfr przestawieniowy z tablica
+~~~~~~~~~~~~~~~~~~
+SZYFR PRZESTAWIENIOWY
+czytać to bardziej żyć -> 22
+a = 22 znaki
+n^2 <= 22
+n = 5
+25 <= 22
+
+CZYTA
+Ć TO 
+BARDZ
+IEJ Ż
+YĆAAA
+
+CĆBIY Z AEĆYTRJATOD AA ZŻA
+
+n=4
+CZYT
+AĆ T
+O BA
+RDZI
+EJ Ż
+YĆAA
+
+CAOREYZĆ DJĆY BZ ATTAIŻA
