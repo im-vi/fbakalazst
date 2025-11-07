@@ -1,1 +1,2 @@
 Temat: Walidacja danych wejściowych.
+GIGO (Garbage In, Garbage Out) - błędnie wprowadzone dane wejściowe powodują błędnie wyświetlane dane wyjściowe.
