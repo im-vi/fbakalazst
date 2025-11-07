@@ -1,2 +1,5 @@
 Temat: Walidacja danych wejściowych.
 GIGO (Garbage In, Garbage Out) - błędnie wprowadzone dane wejściowe powodują błędnie wyświetlane dane wyjściowe.
+Pętla walidacjna - diagram w main/
+Odczyt wstępny - jest to pobranie od użytkownika początkowych danych, jeszcze przed pętlą walidacyjną
+Programowanie defensywne - polega na przewidywaniu ewentualnych błędówmogących wystąpić podczas działania programu i zaprojektowaniu go w taki sposób, aby ich uniknąć.
