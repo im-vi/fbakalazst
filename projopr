@@ -2,4 +2,29 @@ Temat: Walidacja danych wejściowych.
 GIGO (Garbage In, Garbage Out) - błędnie wprowadzone dane wejściowe powodują błędnie wyświetlane dane wyjściowe.
 Pętla walidacjna - diagram w main/
 Odczyt wstępny - jest to pobranie od użytkownika początkowych danych, jeszcze przed pętlą walidacyjną
-Programowanie defensywne - polega na przewidywaniu ewentualnych błędówmogących wystąpić podczas działania programu i zaprojektowaniu go w taki sposób, aby ich uniknąć.
+Programowanie defensywne - polega na przewidywaniu ewentualnych błędów mogących wystąpić podczas działania programu i zaprojektowaniu go w taki sposób, aby ich uniknąć.
+
+
+
+NA SPRAWDZIAN:
+tablice
+  deklarowanie tablic
+  utworzyc i wypelnic
+  definicja elementu indeksu tablicy (co to indeks tablicy)
+  roznica miedzy indeksem tablicy a elementem tablicy
+  gdy nie wiadomo ile elementow ale jakie wartosci - int tab[] = {1, 2, 3, ...};
+  petla od 0 to x i wczytywanie elementow w tablicy
+  inicjalizowanie tablicy, uzupelnienie tablicy danymi
+  sekwencyjne przeszukiwanie tablicy - schemat blokowy - wyszukiwanie czy dany element jest w tablicy
+  przetwarzanie elementow tablicy
+  wyswietlanie elementow parzystych/nieparzystych
+  potrafic skopiowac tablice (petla i zapisywanie do nowej tablicy)
+  tablica rownolegla - odczytywanie (wyswietlanie) danych
+ciagi znakow
+  funkcje sprawdzajace znaki
+  funkcje zamieniajace znaki
+  funkcje dodawania i usuwania znakow
+walidacja danych
+  garbage in garbage out definicja krotka
+  petla walidacyjna danych wejsciowych
+  programowanie defensywne wyjasnic o co chodzi (przewidywanie bledow uzytkownika i zapobieganie im)
