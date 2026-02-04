@@ -1,0 +1,7 @@
+W wyrażeniach regularnych:
+\n – oznacza nową linię (znak końca wiersza).
+\t – oznacza tabulator.
+\d – oznacza cyfrę (w wyrażeniach regularnych w grep -P lub sed).
+\b – oznacza granicę słowa (w grep -E).
+\. – oznacza dosłowną kropkę (bo sama kropka w regex oznacza "dowolny znak").
+\| – oznacza dosłowny operator "lub" (w regex, np. grep -E).
