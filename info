@@ -1,0 +1,14 @@
+infoPL: string[] = [
+  "Puławy są nazywane „polskimi Atenami” – głównie dzięki działalności rodu Czartoryskich, którzy stworzyli tu ważne centrum kultury i nauki w XVIII–XIX wieku.",
+  "W mieście znajduje się Pałac Czartoryskich, otoczony dużym parkiem krajobrazowym w stylu angielskim – to jedno z najważniejszych miejsc historycznych regionu.",
+  "Puławy są ważnym ośrodkiem przemysłowym – działa tu m.in. Grupa Azoty Puławy, jedna z największych firm chemicznych w Polsce.",
+  "Przez miasto przepływa Wisła, a w okolicy znajdują się atrakcyjne tereny przyrodnicze, idealne do spacerów i rekreacji.",
+  "W Puławach znajduje się Instytut Uprawy Nawożenia i Gleboznawstwa, który odgrywa ważną rolę w badaniach nad rolnictwem i ochroną środowiska."
+];
+infoSV: string[] = [
+  "Puławy kallas ”polska Aten” – främst tack vare familjen Czartoryski, som skapade ett viktigt centrum för kultur och vetenskap där under 1700–1800-talet.",
+  "I staden finns Czartoryski-palatset, omgivet av en stor landskapspark i engelsk stil – en av regionens viktigaste historiska platser.",
+  "Puławy är ett viktigt industricentrum – här finns bland annat Grupa Azoty Puławy, ett av de största kemiföretagen i Polen.",
+  "Genom staden rinner Wisła, och i området finns attraktiva naturområden som är perfekta för promenader och rekreation.",
+  "I Puławy finns Institutet för odling, gödsling och markvetenskap, som spelar en viktig roll i forskning om jordbruk och miljöskydd."
+];
